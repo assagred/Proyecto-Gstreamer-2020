@@ -39,7 +39,7 @@
     
   opterr = 0;  // no es necesario declararla, la exporta getopt
 
-  while ((c = getopt (argc, argv, "hi:f:l:g:")) != -1) {
+  while ((c = getopt (argc, argv, "hi:f:tb")) != -1) {
     switch (c)
       {
       case 'h':
