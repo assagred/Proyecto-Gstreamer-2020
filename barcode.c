@@ -33,6 +33,17 @@
    * fichero_entrada: fichero de vídeo a analizar
    */
 
+#include <gst/gst.h>
+#include <glib.h>
+#include <stdio.h>
+#include <string.h>
+
+#include <ctype.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main (int   argc, char *argv[])
+{
 
   int c;
   char *filename;
